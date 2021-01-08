@@ -8,6 +8,10 @@
 
 import SwiftUI
 
+class UserSettings: ObservableObject {
+    @Published var score = 0
+}
+
 struct ContentView: View {
     var body: some View {
         Text("Hello, World!")
